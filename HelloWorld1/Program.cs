@@ -1,10 +1,15 @@
 ﻿namespace HelloWorld1
 {
-    internal class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Hello World First Program");
+            //object creation of any class
+            Calculator calculator = new Calculator();
+            calculator.AdditionOfTwoNumbers();
+            calculator.DifferenceOfTwoNumbers();
+            Console.ReadLine();
         }
     }
 }
